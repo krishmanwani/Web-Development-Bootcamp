@@ -1,0 +1,30 @@
+.navbar a{
+    float: right;    
+    color: black;
+    font-weight: 500;
+    font-size: 150%;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.name{
+    position: absolute;
+    float: left;
+} 
+body{
+    background : linear-gradient(to right, #8084e7, #f66060 );
+} 
+.main{
+    padding-top: 15%;
+    padding-left: 10%;
+    color:rgb(255, 251, 0);
+}
+h1{
+    font-size: 400%;
+}
+h2{
+    font-size: 200%;
+} 
+.logos{
+    padding-left: 10%;
+}
