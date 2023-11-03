@@ -1,23 +1,33 @@
-.navbar a{
-    float: right;    
+.navbar_about {
+    background: linear-gradient(to right, #8084e7, #FFFEA0 );
+    overflow: hidden;
+    padding: 7.5px 7.5px;
+}
+
+.navbar_about a{
+    float: right;
     color: black;
-    font-weight: 500;
-    font-size: 150%;
+    font-weight: 400;
+    text-align: centre;
     padding: 20px 20px;
-    text-decoration: none;
+    font-size: 150%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} 
+    text-decoration: none;
+}
 .name{
     position: absolute;
     float: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 } 
 body{
-    background : linear-gradient(to right, #8084e7, #f66060 );
+    background : linear-gradient(to right, #8084e7, #FFFEA0 );
 } 
 .main{
-    padding-top: 15%;
+    padding-top: 8%;
     padding-left: 10%;
-    color:rgb(255, 251, 0);
+    color:rgb(255, 0, 0);
 }
 h1{
     font-size: 400%;
@@ -28,3 +38,11 @@ h2{
 .logos{
     padding-left: 10%;
 }
+hr{
+    border-top: 2px solid black;
+} 
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+} 
